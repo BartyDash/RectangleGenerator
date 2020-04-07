@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\Testowy\Testowy\bin\Debug\netcoreapp3.1\Testowy.exe
+C:\Users\USER\source\repos\Testowy\Testowy\bin\Debug\netcoreapp3.1\Testowy.deps.json
+C:\Users\USER\source\repos\Testowy\Testowy\bin\Debug\netcoreapp3.1\Testowy.runtimeconfig.json
+C:\Users\USER\source\repos\Testowy\Testowy\bin\Debug\netcoreapp3.1\Testowy.runtimeconfig.dev.json
+C:\Users\USER\source\repos\Testowy\Testowy\bin\Debug\netcoreapp3.1\Testowy.dll
+C:\Users\USER\source\repos\Testowy\Testowy\bin\Debug\netcoreapp3.1\Testowy.pdb
+C:\Users\USER\source\repos\Testowy\Testowy\obj\Debug\netcoreapp3.1\Testowy.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Testowy\Testowy\obj\Debug\netcoreapp3.1\Testowy.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Testowy\Testowy\obj\Debug\netcoreapp3.1\Testowy.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Testowy\Testowy\obj\Debug\netcoreapp3.1\Testowy.AssemblyInfo.cs
+C:\Users\USER\source\repos\Testowy\Testowy\obj\Debug\netcoreapp3.1\Testowy.dll
+C:\Users\USER\source\repos\Testowy\Testowy\obj\Debug\netcoreapp3.1\Testowy.pdb
+C:\Users\USER\source\repos\Testowy\Testowy\obj\Debug\netcoreapp3.1\Testowy.genruntimeconfig.cache
