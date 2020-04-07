@@ -6,6 +6,7 @@ namespace Testowy
     {
         static void Main(string[] args)
         {
+            poczatek:
 
             Console.WriteLine("Generetor prostokątów");
             Console.WriteLine("---------------------\n");
@@ -18,6 +19,7 @@ namespace Testowy
             int x = int.Parse(xs);
             int y = int.Parse(ys);
 
+            wybor:
 
             Console.WriteLine("Wciśnij 1 by wypełnić, lub 2 aby pokazać obręb:");
             string postacs = Console.ReadLine();
@@ -25,6 +27,7 @@ namespace Testowy
             if (postacs != "1" && postacs != "2")
             {
                 Console.WriteLine("Wprowadzona wartość jest niepoprawna!");
+                goto wybor;
             }
 
             int postac = int.Parse(postacs);
@@ -74,6 +77,11 @@ namespace Testowy
             if (Console.ReadLine() == "n")
             {
                 return;
+            }
+            else
+            {
+                Console.Clear();
+                goto poczatek;
             }
         }
     }
