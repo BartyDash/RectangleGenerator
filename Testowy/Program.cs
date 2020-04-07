@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 namespace Testowy
 {
@@ -11,13 +12,31 @@ namespace Testowy
             Console.WriteLine("Generetor prostokątów");
             Console.WriteLine("---------------------\n");
 
+            szerokosc:
             Console.Write("Podaj szerokość: ");
             string xs = Console.ReadLine();
+
+            BigInteger cleanxs = 0;
+            while (!BigInteger.TryParse(xs, out cleanxs))
+            {
+                Console.WriteLine("To jest błędna warość. Proszę wprowadzić poprawną!");
+                goto szerokosc;
+            }
+            //decimal x = decimal.Parse(xs);
+            BigInteger x = BigInteger.Parse(xs);
+
+            wysokosc:
             Console.Write("Podaj wysokość: ");
             string ys = Console.ReadLine();
 
-            int x = int.Parse(xs);
-            int y = int.Parse(ys);
+            BigInteger cleanys = 0;
+            while (!BigInteger.TryParse(ys, out cleanxs))
+            {
+                Console.WriteLine("To jest błędna warość. Proszę wprowadzić poprawną!");
+                goto wysokosc;
+            }
+            //int y = int.Parse(ys);
+            BigInteger y = BigInteger.Parse(ys);
 
             wybor:
 
@@ -35,9 +54,9 @@ namespace Testowy
             if (postac == 1)
             {
                 Console.WriteLine();
-                for (int i = 0; i < y; i++)
+                for (BigInteger i = 0; i < y; i++)
                 {
-                    for (int j = 0; j < x; j++)
+                    for (BigInteger j = 0; j < x; j++)
                     {
                         Console.Write("* ");
                     }
@@ -49,16 +68,16 @@ namespace Testowy
             if (postac == 2)
             {
                 Console.WriteLine();
-                for (int j = 0; j < x; j++)
+                for (BigInteger j = 0; j < x; j++)
                 {
                     Console.Write("* ");
                 }
                 Console.WriteLine();
 
-                for (int i = 0; i < y - 2; i++)
+                for (BigInteger i = 0; i < y - 2; i++)
                 {
                     Console.Write("* ");
-                    for (int j = 0; j < x - 2; j++)
+                    for (BigInteger j = 0; j < x - 2; j++)
                     {
                         Console.Write("  ");
                     }
@@ -66,7 +85,7 @@ namespace Testowy
                     Console.WriteLine();
                 }
 
-                for (int j = 0; j < x; j++)
+                for (BigInteger j = 0; j < x; j++)
                 {
                     Console.Write("* ");
                 }
